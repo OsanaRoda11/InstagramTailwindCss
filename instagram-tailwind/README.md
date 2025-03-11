@@ -1,54 +1,67 @@
-# React + TypeScript + Vite
+Instagram Login Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um clone da interface de login do Instagram, desenvolvido com React e Tailwind CSS.
 
-Currently, two official plugins are available:
+📌 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Interface responsiva inspirada no Instagram
 
-## Expanding the ESLint configuration
+Campos de entrada para e-mail/telefone e senha
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Botão de login interativo
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Link para login via Facebook
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Opção para recuperação de senha
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Links para baixar o aplicativo no Google Play e Microsoft Store
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Rodapé com links institucionais
+
+🛠 Tecnologias Utilizadas
+
+React - Biblioteca JavaScript para construção de interfaces
+
+Tailwind CSS - Framework CSS utilitário
+
+Vite - Ferramenta para desenvolvimento rápido em React
+
+🚀 Como Executar
+
+1. Clonar o repositório
+
+git clone https://github.com/OsanaRoda11/InstagramTailwindCss
+cd instagram-tailwind
+
+2. Instalar dependências
+
+npm install
+
+3. Iniciar o projeto
+
+npm run dev
+
+📂 Estrutura do Projeto
+
+📦 instagram-login-clone
+├── 📂 src
+│   ├── 📂 img            # Imagens do projeto
+│   ├── 📜 App.jsx        # Componente principal
+│   ├── 📜 index.css      # Estilos globais
+│   ├── 📜 main.jsx       # Arquivo de entrada do React
+├── 📜 package.json       # Dependências e scripts do projeto
+├── 📜 vite.config.js     # Configuração do Vite
+└── 📜 README.md          # Documentação do projeto
+
+📌 Melhorias Futuras
+
+Criar versão com Dark Mode
+
+📄 Licença
+
+Este projeto é apenas para fins educacionais e não está afiliado ao Instagram/Meta.
+
+Feito com ❤️ por Osana Roda Manuel.
+
+
+
